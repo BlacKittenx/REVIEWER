@@ -1,0 +1,80 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Section Styling */
+section {
+    width: 80%;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Table Header Styling */
+th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Table Row Styling */
+td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+/* Alternating Row Colors */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Table Styling on Hover */
+tr:hover {
+    background-color: #e0e0e0;
+}
+
+/* Column Border Styling */
+th, td {
+    border: 1px solid #ddd;
+}
+
+/* Responsive Styling for Smaller Screens */
+@media (max-width: 768px) {
+    table {
+        font-size: 14px;
+        overflow-x: auto;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+
+    section {
+        width: 90%;
+    }
+}
